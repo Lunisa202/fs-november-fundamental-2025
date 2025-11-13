@@ -58,3 +58,45 @@
     border-radius: .75rem;
     object-fit: cover;
 }
+/**HERO**/
+.hero{
+    width: 100%;
+    height: 48rem;
+    background-image: url("../images/hero/background-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.hero__container{
+    max-width:48rem;
+    text-align: center;
+    padding: 0 6rem;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    margin-bottom: 1rem;
+}
+.hero__text{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+}
+.hero__button{
+    background-color: rgba(91,91,214,1);
+    color: white;
+    padding: 0.6878rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    display:inline-block;
+    text-decoration: none;
+    margin-top: 2rem;
+}
