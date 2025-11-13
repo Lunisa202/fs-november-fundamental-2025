@@ -1,0 +1,32 @@
+.logo{
+    width: 10rem;
+}
+.nav__link-item{
+    font-size: .875rem;
+    font-weight: 500;
+    list-style: none;
+
+}
+.nav__link-item a{
+    text-decoration: none;
+    color:#60646C;
+}
+.nav__cart-img{
+    width: 1.5rem;
+}
+.nav__container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{        
+    display: flex;
+    justify-content: center;
+}
+.nav__links{
+    display: flex;
+}
+.nav__link-item{
+    padding: 0.75rem;
+}
