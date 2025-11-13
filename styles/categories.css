@@ -16,13 +16,13 @@
 .categories__header{
     width: 48rem;
 }
-.categories__header-title{
+.categories__title{
     color: #1C2024;
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 2.5rem;
 }
-.categories__header-description{
+.categories__description{
     font-size: 1rem;
     line-height: 1.5rem;
     color: #60646C;
