@@ -2,7 +2,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #60646C;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
 }
 .footer__container{
     width: 80%;
+}
+.footer__nav{
+    display: flex;
+    column-gap: 1.5rem;
+}
+.footer__subscription-title{
+    font-weight: 500;
+}
+
+.footer__nav-item{
+    margin: 0;
+}
+.footer__container{
+    margin-top: 3rem;
+}
+.footer__nav-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.footer__nav-links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.footer__container{
+    display: flex;
+
 }
