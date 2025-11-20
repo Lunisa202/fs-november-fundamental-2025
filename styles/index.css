@@ -7,9 +7,19 @@
  
 /* 2. Layout */
 @import url(2_layout/container.css);
- 
+@import url(2_layout/section-sm.css);
+@import url(2_layout/section.css);
 /* 3. Components */
+@import url(3_components/header.css);
+@import url(3_components/categories.css);
 @import url(3_components/category.css);
- 
+@import url(3_components/navigation.css);
+@import url(3_components/quality-item.css);
+@import url(3_components/quality-promise.css);
+@import url(3_components/footer.css);
+
+
 /* 4. Utilities */
 @import url(4_utilities/utilities.css);
+/* 5. Pages */
+@import url(5_pages/home.css);
