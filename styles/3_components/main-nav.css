@@ -1,0 +1,21 @@
+
+
+
+.main-nav{
+    display: none;
+
+}
+@media (min-width: 40rem) {
+   
+   .main-nav{
+    display: block;
+    display: flex;
+   }
+}
+@media (min-width: 64rem) {
+  
+   .main-nav{
+    display: block;
+    display: flex;
+   }
+}

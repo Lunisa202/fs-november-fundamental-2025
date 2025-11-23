@@ -15,10 +15,13 @@
 @import url(3_components/button.css);
 @import url(3_components/categories.css);
 @import url(3_components/category.css);
-@import url(3_components/navigation.css);
+@import url(3_components/main-header.css);
+@import url(3_components/main-nav.css);
+@import url(3_components/nav-item.css);
 @import url(3_components/quality-item.css);
 @import url(3_components/quality-promise.css);
 @import url(3_components/footer.css);
+@import url(3_components/main-footer.css);
 
 
 /* 4. Utilities */

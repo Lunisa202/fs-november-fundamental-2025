@@ -1,3 +1,4 @@
+
 .category {
   max-width: 24rem;
   max-height: 30rem;
@@ -9,6 +10,10 @@
   object-fit: cover;
   border-radius: 0.75rem;
   margin-bottom: 1rem;
+}
+
+.category:hover .category__title{
+  text-decoration: underline;
 }
 
 .category__title {
@@ -23,11 +28,15 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 400;
-  color: rgba(96, 100, 108, 1);
+  color: var(--muted-foreground);
 }
 
 @media (min-width: 768px) {
   .category {
     flex: 1;
+  }
+
+  .category__img {
+    aspect-ratio: 4 / 5;
   }
 }

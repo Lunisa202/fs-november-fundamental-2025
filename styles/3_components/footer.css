@@ -10,7 +10,7 @@
   border-bottom: 1px solid rgba(217, 217, 224, 1);
 }
 
-.footer__container-nav {
+.main-footer {
   display: flex;
   flex-wrap: wrap;
   gap: 0 1rem;
@@ -82,26 +82,18 @@
 }
 
 @media (min-width: 768px) {
-  .footer {
-    
-    padding: 3rem 1.5rem 0 1.5rem;
-  }
-
-  .footer__container-nav {
+  
+  .main-footer{
       flex-wrap: nowrap;
   }
 }
 
 @media (min-width: 1440px) {
-  .footer {
-    padding: 3rem 5rem 0 5rem;
-  }
-
-  .footer__container {
+  .footer__nav {
     flex-direction: row;
   }
 
-  .footer__container-nav {
+  .main-footer {
       flex-wrap: nowrap;
       flex: 1;
   }
